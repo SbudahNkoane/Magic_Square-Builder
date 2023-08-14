@@ -1,7 +1,7 @@
 ﻿using System;
 class ProblemALG004r
 {
-    static void magicSquareBuilder(int num, int rotation)
+    static void magicSquareBuilder(int num)
     {
 
         int[,] magicSquare = new int[num, num];
@@ -68,9 +68,9 @@ class ProblemALG004r
     {
 
         int num = 7;
-        int rotation = 0;
 
-        magicSquareBuilder(num, rotation);
+
+        magicSquareBuilder(num);
 
 
     }
